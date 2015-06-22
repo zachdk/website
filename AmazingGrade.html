@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>grade calculator</title>
+<link rel="stylesheet"  type="text/css"  href="grade.css">
+</head>
+
+<body>
+
+<h1>welcome to grade calculator </h1>
+<hr>
+<p>This is a paragraph. the goal of this is to 
+<a href="http://www.conquercollege.com/gradecalc/">create </a></p>
+
+<div id="input">
+<p> please enter your scores and their weight for the class. the first number score is the grade/percentage you recieved 
+the second is how much that is for the class</p>
+
+
+
+<table style="width:50%">
+ 
+  <tr>
+    <td>Score</td>
+	 <td>Weight</td>
+	  <tr>
+    <td> <input type="text" name="score1" id="score1" value="80"></td>		
+	<td><input type="text" name="Weight1"   id="Weight1" value="10"></td>
+ </tr>	
+  <tr>
+    <td><input type="text" name="score2" id="score2"value="0"></td> 
+	<td><input type="text" name="Weight2" id="Weight2" value="0"></td>
+	 </tr>
+	  <tr>
+	<td> <input type="text" name="score3" id="score3"value="0"></td>	
+	<td><input type="text" name="Weight3" id="Weight3" value="0"></td>	
+	 </tr>
+	  <tr>
+    <td><input type="text" name="score4" id="score4"value="0"></td> 
+	<td><input type="text" name="Weight4" id="Weight4"value="0"></td>
+	 </tr>
+	  <tr>
+	<td> <input type="text" name="score5"id="score5" value="0"></td>	
+	<td><input type="text" name="Weight5" id="Weight5" value="0"></td>	
+	 </tr>
+	  <tr>
+    <td><input type="text" name="score6" id="score6"value="0"></td> 
+	<td><input type="text" name="Weight6" id="Weight6" value="0"></td>
+	 </tr>
+	  <tr>
+	<td> <input type="text" name="score7" id="score7" value="0"></td>	
+	<td><input type="text" name="Weight7" id="Weight7" value="0"></td>	
+
+ </tr>	
+  <tr>
+    <td><input type="text" name="score8" id="score8" value="0"></td>
+	<td><input type="text" name="Weight8" id="Weight8" value="0"></td>
+  </tr>
+ 
+  
+  </tr>
+</table>
+
+
+</div>
+<p> this is where you will put the lower end of each grade for example a=90%
+<table style="width:50%">
+<tr>
+    <td> A <input type="text" name="ARange" id="ARange" value="90">
+	</tr>
+	<tr>
+    <td> B <input type="text" name="BRange"  id="BRange"value="80" >
+	</tr>
+	<tr>
+    <td>C <input type="text" name="CRange"  id="CRange"value="70">
+	</tr>
+	<tr>
+    <td>D <input type="text" name="DRange"  id="DRange" value="60">
+	</tr>
+	
+</table>
+
+<p> your currnet estimate grade</p>
+<p id="est"></p>
+
+<p> for A</p>
+ <p id="apple"> </p> 
+<p> for B</p>
+    <p id="b"></p> 
+	<p> for C</p>
+	<p id="c"></p> 
+	<p> for D</p>
+    <p id="d"></p>
+
+
+<button type="button" onclick="calculate()"> get results</button>
+
+
+   
+
+
+<p> in case you don't like your score here is something to make you feel better</p>
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/G9DKoMSiDc4">
+</iframe>
+
+
+<script src="grade.js"></script>
+
+</body>
+
+</html>
