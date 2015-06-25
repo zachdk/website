@@ -1,12 +1,20 @@
 body{
-background-color: green;
+background-color: black;
 }
 
 #input {
-background-color: white;
+background-color:tan;
  
 }
 #input > p {
- color:red;
+ color:green;
  font-size:150%;
+}
+
+p{
+ color:white;
+}
+
+h1{
+color: red;
 }
